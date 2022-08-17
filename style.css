@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans";
+}
+
+.banner{
+background-image : linear-gradient(to right,rgb(169,152,152),rgba(287,7,191,0.7));
+padding: 5px;
+}
+
+.banner img{
+    width: 50px;
+    margin-left: 5px;
+    /* border:1px solid red; */
+    /* outline:2px dotted blue;
+    outline-offset:13px; */
+}
+
+.right-nav{
+    float: right;
+    margin-top: 23px;
+    margin-right: 10px;
+    color:white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.right-nav a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.right-nav a:hover{
+    color:black;
+    transition: color ease 0.5s;   
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+nav{
+    /* font-family: "DynaPuff",cursive;
+    font-weight: bold; */
+    background-color: #ffaa53;
+    text-align: center;
+    padding: 2rem;
+}
+
+
+nav a{
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover{
+    color:white;
+    transition: color ease 0.5s;
+}
+
+    /* main start */
+main{
+    padding: 20px;
+}
+
+main p{
+    margin-bottom: 8px;
+}
+    /* main end */
+
+    /* footer start */
+footer{  
+    padding: 2rem;
+    background-color: #f18414;
+    text-align: center;
+}
+    /* footer end */
+
+.slack a{
+    position: fixed;
+    right: 10px;
+    bottom: 120px;
+    z-index: 1;
+    background-color: red;
+    color:black;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    padding: 0.1rem;
+    font-size: 2rem;
+}
+
+.slack a:hover {
+    color: white;
+}
+footer p{
+    margin-top:5px;
+    font-size: 0.8rem;
+}
